@@ -1,7 +1,7 @@
 // src/main.tsx
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
+// import App from "./App";
 import "@computas/designsystem/global-styles.css";
 import { addIcons } from "@computas/designsystem/icon";
 import { bin, download, time, calendar, edit, location, laptop, star, book, down, chess, soccer, beer } from "@computas/designsystem/icon/iconRegistry";
@@ -16,7 +16,7 @@ const queryClient = new QueryClient();
 ReactDOM.createRoot(document.getElementById("root")!).render(
     <React.StrictMode>
         <QueryClientProvider client={queryClient}>
-            <App />
+            {/* <App /> */}
         </QueryClientProvider>
     </React.StrictMode>
 );
