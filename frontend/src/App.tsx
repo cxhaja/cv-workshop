@@ -1,7 +1,7 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import MainHeader from "./components/main-header/main-header";
-import Home from "./pages/Home";
-import NotFound from "./pages/NotFound";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import MainHeader from "./components/main-header/main-header";
+// import Home from "./pages/Home";
+// import NotFound from "./pages/NotFound";
 
 // export default function App() {
 //   return (
